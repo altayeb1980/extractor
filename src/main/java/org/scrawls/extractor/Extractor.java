@@ -39,6 +39,7 @@ import java.util.stream.Collectors;
 
 public class Extractor extends Application {
 
+
     private static final Pattern PHONE_NUMBER_PATTERN = Pattern.compile("\\d{10}|(?:\\d{3}-){2}\\d{4}|\\(\\d{3}\\)\\d{3}-?\\d{4}");
     private final TreeTableView<ExtractorResult> treeTableView = new TreeTableView<>();
     private final TextField urlTextField = new TextField("https://seattle.craigslist.org/search/cta");
